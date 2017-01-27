@@ -1,0 +1,268 @@
+                DATA DICTIONARY - WEEK 4 ASSIGNMENT - GETTING AND CLEANING DATA
+
+ACTIVITY    6
+    Six different activities were measured in this experiment including:
+        WALKING
+        WALKING_UPSTAIRS
+        WALKING_DOWNSTAIRS
+        SITTING
+        STANDING
+        LAYING
+        
+SUBJECT     30
+    A group of 30 volunteers within an age bracket of 19-48 years. These people were numbered from 1 to 30. 
+    
+TREATMENT   2
+    70% of the volunteers was selected for generating the training data and 30% the test data
+    - train
+    - test
+    
+
+tBodyAcc_meanX
+    Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. 
+
+
+tBodyAcc_meanY
+    Mean values  of time domain of 3-axial signal in Y direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals 
+
+
+tBodyAcc_meanZ
+    Mean values  of time domain of 3-axial signal in Z direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals 
+
+
+tBodyAcc_stdX
+    Standard deviation of tBodyAcc_meanX
+
+tBodyAcc_stdY
+    Standard deviation of tBodyAcc_meanY
+
+tBodyAcc_stdZ
+    Standard deviation of tBodyAcc_meanZ
+
+tGravityAcc_meanX
+    Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from accelerometer and then seperated into gravity acceleration signals
+
+tGravityAcc_meanY
+    Mean values  of time domain of 3-axial signal in Y direction with different activities and different subjects obtained from accelerometer and then seperated into gravity acceleration signals
+
+tGravityAcc_meanZ
+    Mean values  of time domain of 3-axial signal in Z direction with different activities and different subjects obtained from accelerometer and then seperated into gravity acceleration signals
+
+tGravityAcc_stdX
+    Standard deviation of tGravityAcc_meanX
+
+tGravityAcc_stdY
+    Standard deviation of tGravityAcc_meanY
+
+tGravityAcc_stdZ
+    Standard deviation of tGravityAcc_meanZ
+
+tBodyAccJerk_meanX
+    Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals.
+
+tBodyAccJerk_meanY
+    Mean values  of time domain of 3-axial signal in Y direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals.
+
+tBodyAccJerk_meanZ
+    Mean values  of time domain of 3-axial signal in Z direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals.
+
+tBodyAccJerk_stdX
+    Standard deviation of tBodyAccJerk_meanX
+
+tBodyAccJerk_stdY
+    Standard deviation of tBodyAccJerk_meanY
+
+tBodyAccJerk_stdZ
+    Standard deviation of tBodyAccJerk_meanZ
+
+tBodyGyro_meanX
+    Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals.
+
+tBodyGyro_meanY
+     Mean values  of time domain of 3-axial signal in Y direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals.
+
+tBodyGyro_meanZ
+     Mean values  of time domain of 3-axial signal in Z direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals.
+
+tBodyGyro_stdX
+    Standard deviation of tBodyGyro_meanX
+
+tBodyGyro_stdY
+    Standard deviation of tBodyGyro_meanY
+
+tBodyGyro_stdZ
+    Standard deviation of tBodyGyro_meanZ
+
+tBodyGyroJerk_meanX
+     Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals.Subsequently, the body linear acceleration was derived in time to obtain Jerk signals.
+
+tBodyGyroJerk_meanY
+    Mean values  of time domain of 3-axial signal in Y direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals.Subsequently, the body linear acceleration was derived in time to obtain Jerk signals.
+
+tBodyGyroJerk_meanZ
+    Mean values  of time domain of 3-axial signal in Z direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals.Subsequently, the body linear acceleration was derived in time to obtain Jerk signals.
+
+tBodyGyroJerk_stdX
+    Standard deviation of tBodyGyroJerk_meanX
+
+tBodyGyroJerk_stdY
+    Standard deviation of tBodyGyroJerk_meanY
+
+tBodyGyroJerk_stdZ
+    Standard deviation of tBodyGyroJerk_meanZ
+
+tBodyAccMag_mean
+    Mean values  of time domain of 3-axial signal with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The magnitude of the signals was calculated using the Euclidean norm.
+
+tBodyAccMag_std
+ Satndard deviation of tBodyAccMag_mean
+
+tGravityAccMag_mean
+    Mean values  of time domain of 3-axial signal with different activities and different subjects obtained from accelerometer and then seperated into gravity acceleration signals. The magnitude of the signals was calculated using the Euclidean norm.
+
+tGravityAccMag_std
+ Standard deviation of tGravityAccMag_mean
+
+tBodyAccJerkMag_mean
+    Mean values  of time domain of 3-axial signal with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals. Subsequently the magnitude of the signals was calculated using the Euclidean norm.
+
+tBodyAccJerkMag_std
+ Satndard deviation of tBodyAccJerkMag_mean
+
+tBodyGyroMag_mean
+    Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals. Subsequently the magnitude of the signals was calculated using the Euclidean norm.
+
+tBodyGyroMag_std
+    Standard deviation of tBodyGyroMag_mean
+
+tBodyGyroJerkMag_mean
+    Mean values  of time domain of 3-axial signal with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals.Subsequently, the body linear acceleration was derived in time to obtain Jerk signals. Subsequently the magnitude of the signals was calculated using the Euclidean norm.
+
+tBodyGyroJerkMag_std
+ Standard deviation of tBodyGyroJerkMag_mean
+
+fBodyAcc_meanX
+    Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. A Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAcc_meanY
+    Mean values  of time domain of 3-axial signal in Y direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. A Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAcc_meanZ
+    Mean values  of time domain of 3-axial signal in Z direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. A Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAcc_stdX
+ Standard deviation of fBodyAcc_meanX
+
+fBodyAcc_stdY
+    Standard deviation of fBodyAcc_meanY
+
+fBodyAcc_stdZ
+    Standard deviation of fBodyAcc_meanZ
+
+fBodyAcc_meanFreqX
+    Mean values  of frequency in X direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. A Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAcc_meanFreqY
+    Mean values  of frequency in Y direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. A Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAcc_meanFreqZ
+    Mean values  of frequency in Z direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. A Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAccJerk_meanX
+    Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAccJerk_meanY
+    Mean values  of time domain of 3-axial signal in Y direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAccJerk_meanZ
+    Mean values  of time domain of 3-axial signal in Z direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAccJerk_stdX
+    Standard deviation of fBodyAccJerk_meanX
+
+fBodyAccJerk_stdY
+    Standard deviation of fBodyAccJerk_meanY
+
+fBodyAccJerk_stdZ
+    Standard deviation of fBodyAccJerk_meanZ
+
+fBodyAccJerk_meanFreqX
+    Mean values  of frequency in X direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAccJerk_meanFreqY
+    Mean values  of frequency in Y direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAccJerk_meanFreqZ
+    Mean values  of frequency in Z direction with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyGyro_meanX
+     Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyGyro_meanY
+    Mean values  of time domain of 3-axial signal in Y direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyGyro_meanZ
+    Mean values  of time domain of 3-axial signal in Y direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyGyro_stdX
+    Standard deviation of fBodyGyro_meanX
+
+fBodyGyro_stdY
+    Standard deviation of fBodyGyro_meanY
+
+fBodyGyro_stdZ
+    Standard deviation of fBodyGyro_meanZ
+
+fBodyGyro_meanFreqX
+    Mean values  of frequency in X direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyGyro_meanFreqY
+    Mean values  of frequency in Y direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyGyro_meanFreqZ
+    Mean values  of frequency in Z direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAccMag_mean
+    Mean values  of time domain of 3-axial signal with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The magnitude of the signals was calculated using the Euclidean norm. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyAccMag_std
+    Satndard deviation of fBodyAccMag_mean
+
+fBodyAccMag_meanFreq
+    Mean values  of frequency of time domain of 3-axial signal with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The magnitude of the signals was calculated using the Euclidean norm. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyBodyAccJerkMag_mean
+    Mean values  of time domain of 3-axial signal with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals. Subsequently the magnitude of the signals was calculated using the Euclidean norm. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyBodyAccJerkMag_std
+    Standard deviation of fBodyBodyAccJerkMag_mean
+
+fBodyBodyAccJerkMag_meanFreq
+    Mean values  of frequency of time domain of 3-axial signal with different activities and different subjects obtained from accelerometer and then seperated into body acceleration signals. The body linear acceleration were derived in time to obtain Jerk signals. Subsequently the magnitude of the signals was calculated using the Euclidean norm. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyBodyGyroMag_mean
+    Mean values  of time domain of 3-axial signal in X direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals. Subsequently the magnitude of the signals was calculated using the Euclidean norm. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyBodyGyroMag_std
+ Stabdard deviation of fBodyBodyGyroMag_mean
+
+fBodyBodyGyroMag_meanFreq
+    Mean values  of frequency of time domain of 3-axial signal in X direction with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals. Subsequently the magnitude of the signals was calculated using the Euclidean norm. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyBodyGyroJerkMag_mean
+    Mean values  of time domain of 3-axial signal with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals.Subsequently, the body linear acceleration was derived in time to obtain Jerk signals. Subsequently the magnitude of the signals was calculated using the Euclidean norm. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+fBodyBodyGyroJerkMag_std
+    Satndard deviation of fBodyBodyGyroJerkMag_mean
+
+fBodyBodyGyroJerkMag_meanFreq
+     Mean values  of frequency of time domain of 3-axial signal with different activities and different subjects obtained from gyroscope and then seperated into body gyroscope signals.Subsequently, the body linear acceleration was derived in time to obtain Jerk signals. Subsequently the magnitude of the signals was calculated using the Euclidean norm. And a Fast Fourier Transform (FFT) was applied to these signals.
+
+
+
+
+
+
+
+
+
