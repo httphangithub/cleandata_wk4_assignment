@@ -1,0 +1,16 @@
+png(filename = "plot4.R", width = 480, height = 480)
+par(mfrow = c(2,2))
+with(powerconsum_data, plot(Time, Global_active_power, type="l", xaxt="n", xlab = "", ylab = "Global Active Power (kilowatts)"))
+axis(side = 1, at= c(0.0, 0.5, 1.0), labels = c("Thu", "Fri", "Sat"), tick = TRUE)
+with(powerconsum_data, plot(Time, Voltage, type="l", xaxt="n", xlab = "datetime", ylab = "Voltage"))
+axis(side = 1, at= c(0.0, 0.5, 1.0), labels = c("Thu", "Fri", "Sat"), tick = TRUE)
+plot(powerconsum_data$Time, powerconsum_data$Sub_metering_1, col="dark grey", type = "l", xaxt="n", xlab = "", ylab = "Energy sub metering")
+lines(powerconsum_data$Time, powerconsum_data$Sub_metering_2, col="red", type = "s")
+lines(powerconsum_data$Time, powerconsum_data$Sub_metering_3, col="blue", type = "s")
+
+legend("topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = c(1,1,1), lwd=2, col=c("dark grey","red", "blue"), cex = 0.5, text.width = strwidth("1,000,000"))
+
+axis(side = 1, at= c(0.0, 0.5, 1.0), labels = c("Thu", "Fri", "Sat"), tick = TRUE)
+with(powerconsum_data, plot(Time, Global_reactive_power, type="l", xaxt="n", xlab = "datetime", ylab = "Global_reactive_power"))
+axis(side = 1, at= c(0.0, 0.5, 1.0), labels = c("Thu", "Fri", "Sat"), tick = TRUE)
+dev.off()
